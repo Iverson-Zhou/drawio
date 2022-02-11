@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T07:46:56.208Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="MqMlRNBwIBR3Zb_Drr_3" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-11T07:47:40.223Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="ou9lM38jdVGmr1Z0SAOu" version="15.5.0" type="github">
   <diagram id="MRh8dGVyVaAy5fcaT8k8" name="Page-1">
     <mxGraphModel dx="1819" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="1">
       <root>
@@ -75,7 +75,7 @@
         <mxCell id="U5Bep6wKffa9dp4y0ZwY-12" value="版面刷新&lt;br&gt;onPagePluginUIRefresh" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="-272" y="300" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U5Bep6wKffa9dp4y0ZwY-13" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;Handler发HOME_BG_CHANGE_BY_BLOCK_FOCUS消息&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="U5Bep6wKffa9dp4y0ZwY-13" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;Handler处理HOME_BG_CHANGE_BY_BLOCK_FOCUS消息&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="61.5" y="1039" width="221" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U5Bep6wKffa9dp4y0ZwY-25" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="U5Bep6wKffa9dp4y0ZwY-21" target="U5Bep6wKffa9dp4y0ZwY-23">
