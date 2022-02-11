@@ -1,16 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T11:23:18.939Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="V8x9Ld5dMduYC_bxBDh9" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-11T11:25:28.340Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="qMvfkwPNj-icuBchxsXY" version="15.5.0" type="github">
   <diagram id="MRh8dGVyVaAy5fcaT8k8" name="Page-1">
     <mxGraphModel dx="1819" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="U5Bep6wKffa9dp4y0ZwY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6VSO4FYevupdve8CXnyG-3" target="B0KQMfuUmQHjHjp3Nqz5-2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="172" y="1350" />
-              <mxPoint x="172" y="1350" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="U5Bep6wKffa9dp4y0ZwY-61" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="6VSO4FYevupdve8CXnyG-3" target="U5Bep6wKffa9dp4y0ZwY-60">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6VSO4FYevupdve8CXnyG-3" value="obj != null &amp;amp;&amp;amp; obj instanceof Block&lt;br&gt;Message.obj是否是Block" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;shadow=0;sketch=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="82" y="1200" width="180" height="100" as="geometry" />
@@ -203,6 +198,9 @@
         </mxCell>
         <mxCell id="U5Bep6wKffa9dp4y0ZwY-56" value="NavigateIconDataManager.getTabBgUrl(index);&lt;br&gt;获取背景URL&lt;br&gt;homePageLayout.changeBg(bgUrl);&lt;br&gt;更新背景" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="53" y="1717" width="238" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U5Bep6wKffa9dp4y0ZwY-60" value="presenter.changeBgByBlock(block);&lt;br&gt;修改背景" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="507" y="1220" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
