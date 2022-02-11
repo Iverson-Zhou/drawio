@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T08:11:20.584Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="kn-6-QqZpyAlcItXQhOf" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-11T08:12:30.771Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="51ckCAgw4-6slF9XrVPB" version="15.5.0" type="github">
   <diagram id="MRh8dGVyVaAy5fcaT8k8" name="Page-1">
     <mxGraphModel dx="1819" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="1">
       <root>
@@ -201,7 +201,7 @@
         <mxCell id="U5Bep6wKffa9dp4y0ZwY-53" value="if(HomeConfig.isChildHome)&lt;br&gt;是否儿童模式" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="43" y="1587" width="258" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="U5Bep6wKffa9dp4y0ZwY-56" value="NavigateIconDataManager.getTabBgUrl(index)&lt;br&gt;获取背景URL" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="U5Bep6wKffa9dp4y0ZwY-56" value="NavigateIconDataManager.getTabBgUrl(index);&lt;br&gt;获取背景URL&lt;br&gt;homePageLayout.changeBg(bgUrl);&lt;br&gt;更新背景" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="53" y="1717" width="238" height="60" as="geometry" />
         </mxCell>
       </root>
