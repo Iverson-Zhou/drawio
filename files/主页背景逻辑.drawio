@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T11:31:49.366Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="VUrOH20glx033CO_Qa1J" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-11T11:36:02.152Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="nLnQvLe1tYcJTgZmM7ab" version="15.5.0" type="github">
   <diagram id="MRh8dGVyVaAy5fcaT8k8" name="Page-1">
     <mxGraphModel dx="1819" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="1">
       <root>
@@ -202,6 +202,9 @@
         <mxCell id="U5Bep6wKffa9dp4y0ZwY-56" value="NavigateIconDataManager.getTabBgUrl(index);&lt;br&gt;获取背景URL&lt;br&gt;homePageLayout.changeBg(bgUrl);&lt;br&gt;更新背景" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="53" y="1881" width="238" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="U5Bep6wKffa9dp4y0ZwY-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="U5Bep6wKffa9dp4y0ZwY-60" target="U5Bep6wKffa9dp4y0ZwY-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="U5Bep6wKffa9dp4y0ZwY-60" value="presenter.changeBgByBlock(block);&lt;br&gt;修改背景" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="507" y="1220" width="200" height="60" as="geometry" />
         </mxCell>
@@ -216,6 +219,20 @@
         </mxCell>
         <mxCell id="U5Bep6wKffa9dp4y0ZwY-63" value="changeBgByPlugin();&lt;br&gt;这个目前似乎&lt;font color=&quot;#ff0000&quot;&gt;没有用到&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="-210" y="1387" width="183" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U5Bep6wKffa9dp4y0ZwY-72" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="U5Bep6wKffa9dp4y0ZwY-69" target="U5Bep6wKffa9dp4y0ZwY-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U5Bep6wKffa9dp4y0ZwY-73" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="1" source="U5Bep6wKffa9dp4y0ZwY-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="1381.5000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U5Bep6wKffa9dp4y0ZwY-69" value="&lt;br&gt;if(!HeightMemoryUtils.isHighPerformance())&lt;br&gt;是否低端机" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="478" y="1340" width="258" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="U5Bep6wKffa9dp4y0ZwY-70" value="HomebgMarginManager.getBlockBgUrl(block...);&lt;br&gt;获取背景URL&lt;br&gt;homePageLayout.changeBg(bgUrl);&lt;br&gt;更新背景" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="488" y="1490" width="238" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
